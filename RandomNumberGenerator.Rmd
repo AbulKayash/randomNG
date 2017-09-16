@@ -1,0 +1,56 @@
+---
+title: "Random Number Generator"
+author: "Abul Kayash"
+date: "16 September 2017"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(raster)
+library(rgdal)
+library(jpeg)
+library (imager)
+```
+
+## Random Number Gerator Functionality
+
+This Shiny app generates  random draws from normal distribuitions and plots the values on a histogram.
+ 
+## Access and Source Code
+
+- The app is hosted at:
+    https://abulkayash.shinyapps.io/randomng/
+    
+    
+- The source code and supporting documentation may be found in the follwoing GitHub site:
+  https://github.com/AbulKayash/randomNG
+
+
+
+## Input Parameters
+
+There are three input parameters
+
+- Sample Size
+    - The number of normally  distributed values generated
+- bins
+    - Number of bins bins used in the histogram
+- sd
+    - Standard deviation of the normal ditribution
+
+
+
+
+## The Shiny App GUI
+
+
+
+
+```{r interface}
+
+image <- load.image("ShinyApp.png")
+plot(image, axes=FALSE)
+
+```
+

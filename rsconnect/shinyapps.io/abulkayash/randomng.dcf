@@ -1,0 +1,12 @@
+name: randomng
+title: RandomNG
+username:
+account: abulkayash
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 215378
+bundleId: 984571
+url: https://abulkayash.shinyapps.io/randomng/
+when: 1505578120.3441
+asMultiple: FALSE
+asStatic: FALSE
